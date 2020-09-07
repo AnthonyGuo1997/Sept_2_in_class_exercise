@@ -9,3 +9,9 @@ def test_get_slope():
     calc_slope = get_slope((1,1), (2,3))
     expected = 2
     assert calc_slope == expected
+
+def test_get_intercept():
+    from point_on_line import get_intercept
+    calc_intercept = get_intercept((1,1), (2,3))
+    expected = -1
+    assert calc_intercept == expected
